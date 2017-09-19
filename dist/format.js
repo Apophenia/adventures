@@ -1,6 +1,6 @@
 window.storyFormat({
   "name": "Longs' Adventurers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Longwelwind",
   "description": "Adventurers description",
   "proofing": false,

@@ -60,13 +60,13 @@ TwineFormatPlugin.prototype.apply = function(compiler) {
 
 						let options = {
 							name: "Longs' Adventurers",
-							version: "1.0.0",
+							version: "1.0.1",
 							author: "Longwelwind",
 							description: "Adventurers description",
 							proofing: false,
 							source: source
 						};
-						
+
 						let formatFile = "window.storyFormat(" + JSON.stringify(options, null, 2) + ");";
 						compilation.assets["./dist/format.js"] = {
 							source: () => formatFile,
